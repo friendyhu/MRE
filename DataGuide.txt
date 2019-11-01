@@ -1,0 +1,33 @@
+1. All data formated as matlab format.
+2.SimulationPhantomWaveData
+SimulationPhantomWaveDatawithdifferentSNR.zip.001-004
+    SNR from 0:10:60;
+    testindex from 1:10;
+    WaveData{SNR/10+1}{testindex}
+    FOV=[0.16,0.16];%unit is m
+    Drive Frequence is 90Hz
+
+3.SimulationPhantom Results
+    SimulationPhantomMREWaveResult.mat
+    SimulationPhantom_CNN_EC_LFE_Adj_Result.zip.001-004
+    SimulationPhantom_CNN_EC_LFE0_Result.zip.001-004
+
+4.PatientWaveData
+    WaveDataN194.mat
+    WaveDataN197.mat
+
+    fov=[0.36,0.36];%unit is m
+    Drive Frequence is 60Hz
+5.Patient Liver Mask
+    N194_N197_Mask.mat
+
+6.Patient Result
+    CNN_EC-LFE_Result_N194.mat
+    CNN_EC-LFE_Result_N197.mat
+  Each file contain two variable:
+    smDirPluralDerived for EC-LFE Adj
+    smDirPluralDerived for EC-LFE0
+
+   N194_N197_ResultsofMREWave.mat
+
+
